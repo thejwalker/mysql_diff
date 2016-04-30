@@ -1,0 +1,19 @@
+# osx noise
+.DS_Store
+profile
+
+# xcode noise
+build/*
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+db.local.settings.ini
+# svn & cvs
+.svn
+CVS
+config.codekit

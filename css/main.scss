@@ -1,0 +1,10 @@
+body { padding: 15px; }
+.tableRow { padding: 15px; border: 1px solid #d9d9d9; border-radius: 5px; margin-bottom: 15px; }
+.fieldRow { padding: 5px 0 5px 50px; border: 1px solid #d9d9d9; border-radius: 5px; margin-bottom: 15px; }
+.metaRow {  padding: 5px 0 5px 75px; background-color: #efefef; border-radius: 5px; margin-right: 15px; margin-bottom:5px; }
+.diff { background-color: #990000; color:#ffffff; }
+.diff:before { content: "\f071";  font-family: FontAwesome; font-style: normal; font-weight: normal; text-decoration: inherit; font-size: 14px; float:left; margin-right: 10px; color: #fff; z-index: 1; }
+.diffEx { background-color: #990000; color:#ffffff;  display:inline-block; padding: 3px; border-radius: 3px; }
+span.tableName { font-weight:bold; display:block; padding-bottom:5px; }
+.red { background-color: #990000; color:#ffffff;  display:inline-block; padding: 3px; border-radius: 3px; }
+.green { background-color: #56CA50; color:#ffffff;  display:inline-block; padding: 3px; border-radius: 3px; }

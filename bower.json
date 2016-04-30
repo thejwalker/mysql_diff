@@ -1,0 +1,26 @@
+{
+  "name": "mysql_compare",
+  "authors": [
+    "Jon Walker <jon@aristoworks.com>"
+  ],
+  "description": "A simple tool to compare two mysql databases and identify differences",
+  "main": "index.php",
+  "keywords": [
+    "mysql",
+    "diff"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/thejwalker/mysql_diff",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.1"
+  }
+}
