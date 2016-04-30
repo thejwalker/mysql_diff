@@ -6,10 +6,24 @@ A simple tool to identify differences among two mysql databases including tables
 > 
 > For obvious reasons this tool should not be made available to any public users as it will not only display sensitive information about your database schema but it is also not very security conscious at the moment.  It is intended only for private localized development use.
 
+![SCREENSHOT](https://monosnap.com/file/7mcr63mDNgAKAYTrLhTsd0gxo0xDl6.png)	
 # How To Use
 
 1. Download all of the contents to a folder within your local document path.
 2. Configure db.settings.ini with the login credentials of DB1 and DB2 that you wish to compare
+	
+	**[db1]**	
+	host=localhost	
+	dbname=		
+	username=			
+	password=	
+		
+	**[db2]**		
+	host=localhost	
+	dbname=		
+	username=	
+	password=		
+	
 3. Open the main index page in your browser: <http://localhost:8888/mysql_compare>
 
 
